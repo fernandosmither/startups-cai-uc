@@ -1,0 +1,37 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
+/* Inline social media Icons: https://codepen.io/dbrown42/pen/RVwzxG */
+.titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1.5%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+.prueba{
+  background-color:black;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.inlineblock {
+	display: inline-block;
+  margin: 0 5px;
+}
+.card_background {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #f2f2f2 0%, #e6e6e6 51%, #d9d9d9 100%);
+  height: max-content;
+}
+.card_background:hover {
+  background-position: right center;
+}
+.nosub {
+  text-decoration-line: none;
+}
