@@ -15,7 +15,8 @@ export const getStaticProps = async () => {
     }
   }
 
-console.log(data2)
+
+// console.log(data2)
 
   for (var elemento in data2) {
     var id = data2[elemento]["profilepic"]
@@ -56,7 +57,7 @@ const Talentos = ({ talentos }) => {
 
       <div className={styles.wrapper}>
         {talentos.map(talento => (
-          <div key={talento.marca_temporal}>
+          <div key={talento.marca_temporal} className={styles.hola}>
             <div className={styles.card_background}>
             <div className="row no-gutters">
               <div className="col-md-4">
