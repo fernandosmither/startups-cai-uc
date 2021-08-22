@@ -1,7 +1,7 @@
 @import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
 /* Inline social media Icons: https://codepen.io/dbrown42/pen/RVwzxG */
 .titulo{
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -35,6 +35,10 @@
 }
 .nosub {
   text-decoration-line: none;
+}
+.def_background_color {
+  background: rgb(242,242,242);
+  background-color: rgb(242,242,242);
 }
 .hola {
   /* background-color: blue; */

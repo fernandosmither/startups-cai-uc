@@ -38,6 +38,7 @@ const Talentos = ({ talentos }) => {
       <div className={styles.grid}>
       <div className="card mb-3" style={{"maxWidth": "1024px"}}>
       <div className="row row-cols-1 row-cols-md-2">
+      <div className={styles.def_background_color}>
 
 
       <div className="row no-gutters">
@@ -66,6 +67,7 @@ const Talentos = ({ talentos }) => {
         </div>
       </div>
 
+</div>
 </div>
 </div>
 </div>
