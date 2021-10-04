@@ -1,0 +1,4 @@
+- Añadir tags visuales
+- Añadir filtro por tags
+- Contador de clicks en botones sociales
+- Centrar el título

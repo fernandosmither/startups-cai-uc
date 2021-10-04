@@ -48,7 +48,6 @@ const Talentos = ({ talentos }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="icon.ico" />
       </Head>
-
       <div className={styles.grid}>
       {/* <div className="card mb-3"> */}
       {/* <div className={styles.def_background_color}> */}

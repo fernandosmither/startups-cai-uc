@@ -9,6 +9,7 @@ const Navbar = () => {
             <div className="logo">
                 <Image src="/logo.png" width={100} height={100} />
             </div>
+            <h1> Encuentra tu talento! </h1>
             <Link href="/"><a>Inicio</a></Link>
             <Link href="/"><a>¿Quiénes somos?</a></Link>
         </nav>
